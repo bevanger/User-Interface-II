@@ -213,6 +213,19 @@ footer {
 		width:25%;
 		font-size:2rem;
 	}
+	/*Image Section Styles*/
+	.sectionTwo {
+		flex-direction:row;
+		align-items:center;
+	}
+	.item {
+		width:45%;
+		height:60vh;
+		margin:6% 0 6% 0;
+	}
+	.sectionTwo h3{
+		font-size:2rem
+	}
 }
 @media(max-width:500px){
 	/*Header Section Styles*/
