@@ -195,6 +195,24 @@ footer {
 	.link a{
 		width:25%;
 	}
+	/*Main Section Styles*/
+	.sectionOne {
+		flex-direction:column;
+		height:50vh;
+		padding-top:10%;
+	}
+	.main {
+		justify-content:center;
+		align-items:center;
+	}
+	.main h1 {
+		width:70%;
+		font-size:4rem;
+	}
+	.main a {
+		width:25%;
+		font-size:2rem;
+	}
 }
 @media(max-width:500px){
 	/*Header Section Styles*/
@@ -231,7 +249,8 @@ footer {
 		font-size:3rem;
 	}
 	.main a {
-		width:28%;
+		width:25%;
+		font-size:1.5rem;
 	}
 	/*Image Section Styles*/
 	.sectionTwo {
