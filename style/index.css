@@ -226,6 +226,10 @@ footer {
 	.sectionTwo h3{
 		font-size:2rem
 	}
+		/*Footer Section Styles*/
+		.contact{
+			width:25%;
+		}
 }
 @media(max-width:500px){
 	/*Header Section Styles*/
