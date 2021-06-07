@@ -170,3 +170,27 @@ footer {
 	background-color:#f2f2f2;
 
 }
+/*Responsive Styles*/
+@media(max-width: 800px){
+
+}
+@media(max-width:500px){
+	/*Nav Section Styles*/
+	nav {
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	 .logo {
+		 width:70%;
+		justify-content:center;
+	}	
+	.logo h2 {
+		font-size:4.5rem;
+	}
+	.link {
+		flex-direction:column;
+		width:70%;
+		font-size:2rem;
+	}
+}
